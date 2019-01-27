@@ -1,5 +1,8 @@
-#Returns Graph of First Moment against 1st-moment parameter - x_0 in Shiino  
-#
+#Returns Graph of First Moment against 1st-moment parameter - x_0 in Shiino using Newton Iteration 
+#Works in Inverse Noise!
+#Parameters: nu inverse multiplicative noise
+#			 beta inverse additivive noise
+#			 jrange No. of nus to try. 
 
 import numpy as np
 from scipy.integrate import quad
